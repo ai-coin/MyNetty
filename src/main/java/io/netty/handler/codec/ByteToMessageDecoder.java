@@ -24,12 +24,10 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.channel.socket.ChannelInputShutdownEvent;
 import io.netty.util.internal.ObjectUtil;
-import io.netty.util.internal.StringUtil;
-
-import java.util.List;
-
 import static io.netty.util.internal.ObjectUtil.checkPositive;
+import io.netty.util.internal.StringUtil;
 import static java.lang.Integer.MAX_VALUE;
+import java.util.List;
 
 /**
  * {@link ChannelInboundHandlerAdapter} which decodes bytes in a stream-like fashion from one {@link ByteBuf} to an
